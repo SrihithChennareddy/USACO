@@ -7,7 +7,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         ArrayList<Integer> nums = new ArrayList<Integer>();
-        int x = 6;
+        int x = 5;
         while (st.hasMoreTokens()){  
             nums.add(Integer.parseInt(st.nextToken()));
         }
@@ -18,8 +18,8 @@ public class Main {
     }
 
     public static Integer binarySearch(ArrayList<Integer> nums, Integer x){
-        int right = nums.size();
         int left = 0;
+        int right = nums.size();
         while(left < right){
             int mid = (left+right)/2;
             if(x < nums.get(mid)){
@@ -31,7 +31,6 @@ public class Main {
             }
         }
         return -1;
-
     }
     
 }
