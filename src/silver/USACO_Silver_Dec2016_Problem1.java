@@ -26,9 +26,6 @@ public class Problem1 {
             pw.println(count);
         }
         pw.close();
-
-
-
     }
     
     public static int binarySearch(int[] nums, int x){
