@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Problem1 {
+public class USACO_Silver_Dec2016_Problem1 {
     public static void main(String[] args) throws IOException {
     
         BufferedReader br = new BufferedReader(new FileReader("haybales.in"));
