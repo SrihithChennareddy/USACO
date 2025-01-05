@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class CakeGame {
+public class USACO_Dec2024_Prob1 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
