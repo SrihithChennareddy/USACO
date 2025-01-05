@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Deforestation {
+public class USACO_Dec2024_Prob2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int tests = Integer.parseInt(br.readLine());
