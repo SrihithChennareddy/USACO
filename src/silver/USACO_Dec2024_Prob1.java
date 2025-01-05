@@ -16,7 +16,6 @@ public class CakeGame {
             }
             
             // Cumulative sum array
-    
             long[] cum = new long[c + 1];
             for (int k = 0; k < c; k++) {
                 cum[k + 1] = cum[k] + cakes[k];
